@@ -79,9 +79,9 @@ You can set any dom object to be a form as long as it can contain children.
 <button class="selfsub" path="/food"></button>
 </div>
 
-> On Click shoud be
-> GET /sample/prefix/food
- Afterwards the data should append to **.targetdom**
+> On Click shoud be  GET /sample/prefix/food
+
+Afterwards the data should append to **.targetdom**
 
 ## Class reference
 1. marker : Parent DOM with xsub, loader-result,dosub as it's child classes. This tells Havok.js that this is a form.
