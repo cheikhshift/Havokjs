@@ -75,9 +75,9 @@ You can set any dom object to be a form as long as it can contain children.
 	
 	
 ### Prefix url with self submission
-<div class="prefixsub" target=".targetdom" prefix="/sample/prefix">
-<button class="selfsub" path="/food"></button>
-</div>
+	<div class="prefixsub" target=".targetdom" prefix="/sample/prefix">
+	<button class="selfsub" path="/food"></button>
+	</div>
 
 > On Click shoud be  GET /sample/prefix/food
 
